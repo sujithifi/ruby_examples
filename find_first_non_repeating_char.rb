@@ -21,7 +21,7 @@ class Find
 
 end
 
-#p Find.new("baby").find  => a
-#p Find.new("12323").find => 1
-#p Find.new(baba).find    => nil
+p Find.new("baby").find  # => a
+p Find.new("12323").find # => 1
+p Find.new("baba").find  # => nil
 

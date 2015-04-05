@@ -1,2 +1,2 @@
 # Ruby examples
-Ruby Implementations
+Ruby Implementations of excercise problem using basic data structures
