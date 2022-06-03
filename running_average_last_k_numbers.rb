@@ -21,10 +21,10 @@ class RunningAverage
 end
 
   avg = RunningAverage.new(3)
-p avg <<  5 #=> 5
-p avg <<  6 #=> 6.5
-p avg <<  9 #=> 5
-p avg << 12 #=> 9
-p avg <<  5 #=> 8.6
-p avg <<  5 #=> 7.3
-p avg <<  5 #=> 5
+p avg <<  5 #=> 5.0
+p avg <<  6 #=> 5.5
+p avg <<  9 #=> 6.666666666666667
+p avg << 12 #=> 9.0
+p avg <<  5 #=> 8.666666666666666
+p avg <<  5 #=> 7.333333333333333
+p avg <<  5 #=> 5.0
